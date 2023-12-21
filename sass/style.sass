@@ -1,0 +1,298 @@
+body
+    background-color: #191919
+    font-family: 'DM Sans', sans-serif
+    font-weight: 400
+
+header
+    margin-top: 26px
+
+.header_container
+    margin: 0 50px
+
+.container
+    margin: 0 70px
+
+nav
+    display: flex
+    justify-content: space-between
+    align-items: center
+    .nav_menu
+        display: flex
+        justify-content: space-between
+        width: 360px
+        padding: 0 20px
+        list-style: none      
+        a
+            text-decoration: none
+            color: #fff 
+            transition: 0.3s all
+            &:hover
+                color: #118DA8
+
+.podcast
+    margin-top: 66px
+    &_block
+        display: flex
+        &_img
+            display: block
+            margin-right: 60px
+        &_info
+            width: 530px
+            margin-top: 294px
+            &_title
+                color: #FFF
+                font-size: 70px
+                line-height: 88px
+                letter-spacing: 3.2px
+            &_subheader
+                margin-top: 90px
+                margin-left: 22px
+                color: #FFF
+                font-size: 15px
+            &_icons
+                margin-top: 16px
+                margin-left: 22px
+                display: flex
+                justify-content: space-between
+                width: 228px
+
+.episodes
+    &_header
+        margin-top: 100px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 24px 0
+    &_title
+        color: #FFF
+        font-size: 64px
+    &_btn
+        width: 178px
+        height: 51px
+        border-radius: 6px
+        background-color: #118DA8
+        color: #fff
+        &:hover
+            cursor: pointer
+            background-color: #007382
+    &_card_item
+        margin-top: 60px
+        width: 100%
+        height: 545px
+        background-color: #000
+        border-radius: 32px
+        display: flex
+        align-items: flex-start       
+        &:nth-child(1)
+            margin-top: 40px
+        &_img
+            width: 389px
+            height: 465px
+            margin: 40px 53px 40px 40px
+        &_desc
+            margin-top: 41px
+            height: 465px
+            position: relative
+            &_theme
+                color: #fff
+                font-size: 18px
+                &_wrapper
+                    display: inline-block
+                    margin-top: 8px
+                    padding: 0 16px
+                    background-color: #191919
+                    border-radius: 6px
+            &_number
+                margin-top: 48px
+                color: #118DA8
+                font-size: 17px
+            &_title
+                margin-top: 18px
+                width: 701px
+                color: #fff
+                font-size: 64px 
+                line-height: 70.4px
+                letter-spacing: 2.56px
+            &_text
+                margin-top: 28px
+                width: 757px
+                font-size: 22px
+                line-height: 33px
+                color: rgba(255, 255, 255, 0.70)
+            .episodes_btn
+                position: absolute
+                bottom: 0
+                left: 0
+
+.host
+    margin-top: 260px
+    &_block
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        &_person
+            display: block
+            width: 590px
+            height: 448px
+            padding: 148px 0
+            &_btn
+                width: 112px
+                height: 112px
+                background-color: #118DA8
+                border: 1px solid #118DA8
+                border-radius: 100%
+                transition: 0.3s all
+                &:hover
+                    background-color: #007382
+                    cursor: pointer
+                &:hover + .host_block_person_link
+                    color: #007382
+                img
+                    display: flex
+                    align-items: center
+                    margin: 0 auto
+            &_link
+                display: block
+                font-size: 18px
+                margin-top: 20px
+                text-decoration: none
+                color: #118DA8
+                transition: 0.3s all
+                &:hover
+                    color: #007382
+            &_name
+                color: #FFF
+                font-size: 65px
+            &_about
+                color: rgba(255, 255, 255, 0.70)
+                font-size: 22px
+                line-height: 33px
+                margin-top: 28px
+        &_img
+            width: 650px
+            height: 743px
+
+.newsletter_block
+    margin-top: 200px
+    padding: 60px 60px 75px 60px
+    border: 1px solid #000
+    border-radius: 32px
+    background-color: #000
+    height: 252px
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+    &_title
+        width: 522px
+        &_subheader
+            color: #118DA8
+            font-size: 18px
+        &_header
+            color: #FFF
+            font-size: 72px
+            line-height: 79.2px
+            letter-spacing: 2.88px
+            width: 431px
+    &_form
+        width: 522px
+        height: 252px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        &_input
+            height: 82px
+            border-radius: 6px
+            border: 1px solid #191919
+            background-color: #191919
+            color: rgba(255, 255, 255, 0.70)
+            font-size: 24px
+            padding-left: 19px
+            &::placeholder
+                color: rgba(255, 255, 255, 0.70)
+                font-size: 24px
+        &_btn
+            width: 87px
+            height: 48px
+            border: 1px solid #118DA8
+            border-radius: 6px
+            background: #118DA8
+            color: rgba(255, 255, 255, 0.70)
+            font-size: 15px
+            font-size: 700
+            &:hover
+                cursor: pointer
+                background-color: #007382
+
+.reviews
+    margin-top: 184px
+    &_block
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+    &_card
+        margin-top: 16px
+        padding: 50px
+        width: 323px
+        height: 214px
+        border-radius: 32px
+        background-color: #000
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        &_rating
+            width: 33%
+            display: flex
+            justify-content: space-between    
+        &_text
+            margin-top: 21px
+            color: #FFF
+            font-size: 36px
+            line-height: 43.2px
+        &_user
+            margin-top: 19px
+            color: rgba(255, 255, 255, 0.70)
+            font-size: 24px
+
+footer
+    margin: 200px 0 100px 0
+.footer
+    &_block
+        height: 222px
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+    &_block > div
+        &:nth-child(1)
+            width: 33%
+        &:nth-child(2)
+            width: 15%
+        &:nth-child(3)
+            width: 15%   
+        &:nth-child(4)
+            width: 33%
+            display: flex
+            justify-content: flex-start
+    &_social_icons
+        margin-top: 23px
+        width: 92px
+        display: flex
+        justify-content: space-between
+    &_nav, &_links
+        margin: 0
+        padding: 0
+        list-style: none
+        li
+            margin-top: 10px
+            &:first-child
+                margin-top: 0
+        a
+            font-size: 17px
+            text-decoration: none
+            color: #fff 
+            transition: 0.3s all
+            &:hover
+                color: #118DA8
+    &_podcast_link
+        display: flex
+        justify-content: space-between
+        width: 220px
